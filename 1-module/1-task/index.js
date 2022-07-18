@@ -16,17 +16,4 @@ function factorial(n) {
   return result;
 }
 
-let n = prompt("Факториал какого числа требуется вычислить?", '');
-
-if (n === "1") {
-  alert("1");
-
-} else if (n < 0 ){
-  alert("Ошибка");
-
-} else {
-  alert(factorial(n));
-}
-
-
 
